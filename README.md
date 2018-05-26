@@ -1,7 +1,7 @@
-# txt-To-json
+# Convert txt to json
 
-## Example txt File
-```
+## Example txt file contents
+```txt
 hello
 my
 name
@@ -9,13 +9,13 @@ is
 yongyong
 ```
 
-## Convert json File
-### plz change prams
+## Convert
+### Change prams
 1. txtFile_name
 2. jsonFile_path
 3. file_format
 
-```
+```json
 {
   "./jsonFile_path/1": "hello",
   "./jsonFile_path/2": "my",
@@ -24,3 +24,6 @@ yongyong
   "./jsonFile_path/5": "yongyong"
 }
 ```
+
+### Run
+- python3 txtTojson.py
